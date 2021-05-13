@@ -57,8 +57,7 @@ public class AuthManager {
 	   
 	} 
 	 private Boolean passwordMatch(String rawPassword,String from_db_encoded) {
-		 return rawPassword.equals(from_db_encoded);
-		// return BCrypt.checkpw(rawPassword.toString(),from_db_encoded);	 
+		 return rawPassword.equals(from_db_encoded); 
 	 }
 	 
 }
