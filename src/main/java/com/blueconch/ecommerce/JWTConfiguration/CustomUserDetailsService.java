@@ -43,11 +43,5 @@ public class CustomUserDetailsService implements UserDetailsService {
 	   	}   
         //return UserPrincipal.create(user);
     }
-   
-//	@Override
-//	public UserDetails loadUserByUsername(String mobile) throws UsernameNotFoundException {
-//		// TODO Auto-generated method stub
-//		return null;
-//	}
 
 }
